@@ -19,3 +19,11 @@ Some challenges to take on later (from his suggested projects, that I put off fo
   > Is there anything stopping you from using the cache module anywhere you need a transient key-value store?
   >
   > Is the cache preserved if you exit the main Fibonacci calculator and restart it? Can you explain your answer?
+
+3. Put Hangman code into a single file instead of `impl` and `runtime`
+
+  > Create a new throwaway branch in your copy of the Hangman project, and reorganize it so that the API, implementation, and GenServer stuff is all in a single source file.
+  >
+  > Go through that file and make every function definition that isn't an API or a GenServer callback private. This is the way people would write this type of server.
+  >
+  > Now update the tests to get them working.
