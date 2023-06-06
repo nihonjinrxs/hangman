@@ -12,9 +12,9 @@ defmodule Dictionary.Runtime.Server do
 
   def random_word() do
     # temporary way to crash the dictionary process occasionally
-    if :rand.uniform() < 0.333 do
-      Agent.get(@me, fn _ -> exit(:boom) end)
-    end
+    # if :rand.uniform() < 0.333 do
+    #   Agent.get(@me, fn _ -> exit(:boom) end)
+    # end
     Agent.get(@me, &WordList.random_word/1)
   end
 end
