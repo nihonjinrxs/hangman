@@ -1,6 +1,6 @@
 # Hangman, with PragDave
 
-This app was me walking my way through @pragdave's Elixir for Programmers hands-on course project.
+This app was me walking my way through @pragdave's [Elixir for Programmers 2](https://codestool.coding-gnome.com/courses/elixir-for-programmers-2) hands-on course project.
 
 Some challenges to take on later (from his suggested projects, that I put off for later):
 
