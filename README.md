@@ -27,3 +27,11 @@ Some challenges to take on later (from his suggested projects, that I put off fo
   > Go through that file and make every function definition that isn't an API or a GenServer callback private. This is the way people would write this type of server.
   >
   > Now update the tests to get them working.
+
+4. Track new node connections and disconnections from the `Hangman` application/server
+  
+  > (Slightly tricky) In a temporary branch, modify the Hangman application to record the number of new games that have been created, outputting the total when it gets updated.
+  >
+  > (Tricky) Can you record the name of each node as it connects, and write out the current list on each connection?
+  >
+  > (++Tricky) Can you find a way to monitor when a connected client goes away, and remove that node from the list you keep?
